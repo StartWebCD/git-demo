@@ -2,3 +2,5 @@ cartofi
 paine 
 lapte
 apa
+rosii
+branza
