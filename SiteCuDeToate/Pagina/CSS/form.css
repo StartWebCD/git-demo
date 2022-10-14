@@ -1,0 +1,50 @@
+form {
+    width: 350px;
+    border: solid 1px;
+    margin: 20px auto 20px auto;
+    background-color: beige;
+    margin-top: 20px;
+}
+
+legend {
+    font-size: 90%;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.input {
+    width: 320px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#male,
+#female {
+    margin-left: 10px;
+}
+
+form p {
+    margin-left: 10px;
+}
+
+#h3,
+#yes {
+    margin-left: 10px;
+}
+
+#submit {
+    margin-left: 10px;
+}
+
+#baga {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#titlu {
+    top: 50px;
+    text-align: center;
+}
+

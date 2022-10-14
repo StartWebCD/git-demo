@@ -1,0 +1,86 @@
+.tot {
+    position: relative;
+    width: 980px;
+    height: 539px;
+    border: solid 1px;
+    margin: 20px auto 20px auto;
+    background-color: beige;
+}
+
+#titlu {
+    top: 50px;
+    text-align: center;
+}
+
+#tabel {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border: solid 1px;
+    height: 519px;
+    width: 960px;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+#tabel tr:hover :nth-child(3),
+#tabel tr:hover :nth-child(4),
+#tabel tr:hover :nth-child(5),
+#tabel tr:hover :nth-child(6)
+ {
+    background-color: lightgrey;
+}
+
+th {
+    vertical-align: bottom;
+}
+
+td {
+    text-align: center;
+}
+
+th,
+td {
+    border: solid 1px;
+    height: 10%;
+}
+
+#primul {
+    font-size: 30px;
+    background-color: rgb(34, 76, 83);
+
+}
+
+#primac {
+    background-color: rgb(39, 99, 99);
+    }
+
+
+#nr {
+    background-color: black;
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+tbody>tr>:nth-child(1) {
+    color: white;
+    text-align: center;
+}
+
+tbody>tr>:nth-child(2) {
+    color: white;
+    text-align: left;
+    
+}
+
+tbody>tr>:nth-child(2)>p {
+    font-size: 25px;
+    margin-left: 20px;
+}
